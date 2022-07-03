@@ -1,0 +1,152 @@
+.wrapper-main{
+
+    width:100%;
+    height: 100%;
+    background-color: rgb(0, 132, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+body{
+
+    font-family: sans-serif;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.container-main{
+
+    width: 500px;
+    background-color: rgba(255, 255, 255, 0.884);
+    border-radius: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px;
+    gap:50px;
+
+}
+
+.search-container{
+
+    display: flex;
+    align-items: center;
+    gap:15px;
+    width: 100%;
+    position: relative;
+
+}
+
+input{
+
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    border-bottom: 2px solid black;
+    font-size: 16px;
+}
+
+input:focus{
+
+    outline: none;
+
+}
+
+.icon{
+
+    width: 50px;
+    height: 50px;
+
+}
+
+.main-weather{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.temperature{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.feels-like{
+
+    display: flex;
+    justify-content: space-around;
+    width:500px;
+
+}
+
+.wind-container{
+
+    width: 500px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+h1,h2,h3{
+    font-weight: 300;
+
+}
+
+.humidity-container{
+    display: flex;
+    align-items: center;
+    gap:10px;
+
+}
+
+.toggle{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background-color: rgb(0, 119, 255);
+    transform: translateX(0);
+    transition: all ease 200ms;
+}
+
+.toggle-container{
+
+    display: flex;
+    align-items: center ;
+    cursor: pointer;
+
+}
+
+.toggle-container h3{
+
+    margin:0 10px;
+
+}
+
+.toggle-wrapper{
+
+    background-color: white;
+    padding: 3px;
+    border-radius:100px;
+    width: 32px;
+}
+
+
+#search{
+
+    cursor: pointer;
+
+}
+
+.error{
+
+    position: absolute;
+    top:30px;
+    left:50px;
+    color:red;
+}
